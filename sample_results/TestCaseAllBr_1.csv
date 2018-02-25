@@ -1,0 +1,15 @@
+
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","S00 ( Again making switch ) ","C01 ( Case Node has two nodes ) ","PASS ( Positive ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","S00 ( Again making switch ) ","C01 ( Case Node has two nodes ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","S00 ( Again making switch ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","C01 ( Case Node has two nodes ) ","PASS ( Positive ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","C01 ( Case Node has two nodes ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","PASS ( Positive ) ","X ( Exit Node ) ",
+
+"E1 ( Start here ) ","S1 ( This is a switch it moves to multiple things ) ","X ( Exit Node ) ",

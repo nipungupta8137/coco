@@ -1,0 +1,36 @@
+
+ digraph G {
+	E1 [shape=Mdiamond];
+	rankdir=LR;
+	node [shape=record,height=.08,fontsize=11];
+	E1 -> S1;
+	subgraph "cluster_E1" { label="Start here"; E1; }
+	S1 -> S00 [label="Path 1"];
+	S1 -> C01 [label="Path 2"];
+	S1 -> PASS [label="Path 3"];
+	S1 -> X [label="Path 4"];
+	subgraph "cluster_S1" { label="This is a switch it moves to multiple things"; S1;}
+	S00 -> C01 [label="Path 5"];
+	S00 -> X [label="Path 6"];
+	subgraph "cluster_S00" { label="Again making switch"; S00;}
+	C01 [shape=diamond]
+	C01 -> PASS [label=""];
+	C01 -> X [label=""];
+	subgraph "cluster_C01" { label="Case Node has two nodes"; C01; }
+	PASS [shape=circle]
+	PASS -> X [label="Positive"];
+	X [shape=Msquare]
+	subgraph "cluster_X" { label="Exit Node"; X; }
+
+	E1[color="red"]
+	E1->S1 [color="red"]
+	S1[color="red"]
+	S1->C01 [color="red"]
+	C01[color="red"]
+	C01->X [color="red"]
+	X [color="red"]
+}
+
+ digraph G1{
+	E1_->S1_->C01_->X_
+}
