@@ -307,7 +307,7 @@ sub branchCoverage{
 # 1. Part 1 : Read input file and create dot file.
 
 if($#ARGV < 2){
-	print "\n Usage:\nperl coco.pl <input filename> <dot filename> <png filename>";
+	print "\n Usage:\nperl coco.pl <input filename> <dot filename> <png filename> ALL DEBUG\n";
 	exit(0);
 }
 
