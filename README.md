@@ -1,4 +1,5 @@
-# PathFinder - helps to visualize the test path, this is a path finder for the workflows.
+# PathFinder
+## helps to visualize the test path, given a TEXT written input sheet.
 
 E1:E:Start here:S1: :
 S1:S:This is a switch it moves to multiple things:Path 1:Path 2:Path 3:Path 4:
